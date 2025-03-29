@@ -326,10 +326,10 @@ export default function Home() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#education" className="text-gray-400 hover:text-[#ffae00] transition-colors">
+                  <Link href="#personal-skills" className="text-gray-400 hover:text-[#ffae00] transition-colors">
                     <span className="flex items-center">
                       <ChevronDown className="h-4 w-4 mr-2 rotate-90" />
-                      Education
+                      Personal Skills
                     </span>
                   </Link>
                 </li>
