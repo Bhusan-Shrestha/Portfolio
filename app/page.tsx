@@ -275,7 +275,40 @@ export default function Home() {
                     <p className="text-blue-600 mb-1">Whitehouse Innovator</p>
                     <p className="text-gray-700">
                       This award is provided by Whitehouse Innovation for the outstanding design skills in the Front
-                      Design Fest.
+                      Design Fest held in 23 February,2025 at Himalayan WhiteHouse International College.
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div><br></br>
+          <div className="max-w-3xl mx-auto">
+            <Card className="border border-gray-200 bg-white hover:shadow-lg transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="flex flex-col md:flex-row items-center gap-6">
+                  <div className="w-20 h-20 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-10 w-10 text-blue-600"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <path d="M12 15c2.21 0 4-1.79 4-4 0-2.21-1.79-4-4-4-2.21 0-4 1.79-4 4 0 2.21 1.79 4 4 4z"></path>
+                      <path d="M19.93 21.12c-1.9-3.79-6.07-6.12-9.93-6.12s-8.03 2.33-9.93 6.12"></path>
+                      <path d="M8 7.82v4.36"></path>
+                      <path d="M16 7.82v4.36"></path>
+                      <path d="M12 4v2"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">2nd Position on IT Fest 2081 </h3>
+                    <p className="text-blue-600 mb-1">ANNFSU Himalayan WhiteHouse International College Committee</p>
+                    <p className="text-gray-700">
+                      This award is provided by ANNFSU Himalayan WhiteHouse International College committee for the 2nd position in the IT Fest 2081 held in 24 & 25 March,2025 at Himalayan WhiteHouse International College.
                     </p>
                   </div>
                 </div>
