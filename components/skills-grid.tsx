@@ -15,22 +15,22 @@ interface Skill {
 
 export default function SkillsGrid() {
   const [skills, setSkills] = useState<Skill[]>([
-    {
-      name: "Cisco Networking",
-      icon: "https://cdn-icons-png.flaticon.com/512/882/882730.png",
-    },
-    {
-      name: "Wireshark",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Wireshark_icon_new.png/768px-Wireshark_icon_new.png",
-    },
+    // {
+    //   name: "Cisco Networking",
+    //   icon: "https://cdn-icons-png.flaticon.com/512/882/882730.png",
+    // },
     {
       name: "TCP/IP",
       icon: "https://img.icons8.com/color/48/000000/networking-manager.png",
     },
     {
-      name: "VPN Technologies",
-      icon: "https://cdn-icons-png.flaticon.com/128/2665/2665268.png",
+      name: "Wireshark",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Wireshark_icon_new.png/768px-Wireshark_icon_new.png",
     },
+    // {
+    //   name: "VPN Technologies",
+    //   icon: "https://cdn-icons-png.flaticon.com/128/2665/2665268.png",
+    // },
     {
       name: "Routing & Switching",
       icon: "https://cdn-icons-png.flaticon.com/128/2248/2248677.png",
@@ -40,10 +40,10 @@ export default function SkillsGrid() {
       icon: "https://cdn-icons-png.flaticon.com/128/18983/18983852.png",
       // svgIcon: <Network className="h-10 w-10 text-[#420177]" />,
     },
-    {
-      name: "Firewalls",
-      icon: "https://img.icons8.com/color/48/000000/firewall.png",
-    },
+    // {
+    //   name: "Firewalls",
+    //   icon: "https://img.icons8.com/color/48/000000/firewall.png",
+    // },
     {
       name: "Linux",
       icon: "https://cdn-icons-png.flaticon.com/512/6124/6124995.png",
@@ -93,10 +93,10 @@ export default function SkillsGrid() {
       name: "WordPress",
       icon: "https://img.icons8.com/color/48/000000/wordpress.png",
     },
-    {
-      name: "Bootstrap",
-      icon: "https://img.icons8.com/color/48/000000/bootstrap.png",
-    },
+    // {
+    //   name: "Bootstrap",
+    //   icon: "https://img.icons8.com/color/48/000000/bootstrap.png",
+    // },
   ])
 
   return (
