@@ -127,7 +127,7 @@ export default function Home() {
               <p className="text-gray-800 mb-6" style={{ textAlign: "justify" }}>
                 I am an enthusiastic, self-motivated, reliable, responsible, and hard-working person. I am a mature team
                 worker and adaptable to all challenging situations. I am able to work well both in a team environment
-                and using my own initiative. I am able to work well under pressure and adhere to strict deadlines. I am very passionate about improving my coding skills, Networking and Network Security. Working for myself to improve my skills. I believe in Learning by Doing and through Mistakes and Experience.
+                and using my own initiative. I am able to work well under pressure and adhere to strict deadlines. I am very passionate about improving my coding skills, Networking and Network Security. Working for myself to improve my skills. I believe in Learning by doing and through mistakes and experience.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                 <div>
