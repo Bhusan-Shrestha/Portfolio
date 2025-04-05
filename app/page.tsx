@@ -208,6 +208,14 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
+              title="Votex - Online Voting System"
+              description="The Online Voting System. Which is developed by my team for the TI Fest 2081 organized by ANNFSU Himalayan WhiteHouse International College committee."
+              image="/Votex.png"
+              // liveUrl="https://github.com/HikmatBaniya/Itfest"
+              codeUrl="https://github.com/HikmatBaniya/Itfest"
+            />
+            
+            <ProjectCard
               title="Travel Agency - Ghum Gham"
               description="This is about the landing page of a travel agency. Which is for the Frontend Design Fest organized by Whitehouse Innovator."
               image="/Ghum-Gham.png"
