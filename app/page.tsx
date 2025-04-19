@@ -122,12 +122,12 @@ export default function Home() {
             <div className="flex-1">
               <h3 className="text-2xl font-bold mb-2 text-black">I'm Bhusan</h3>
               <Badge className="mb-4 bg-blue-100 text-blue-800 hover:bg-blue-100">
-                Passionate About Networking and Network Security
+                Passionate About gaining new knowledge and skills
               </Badge>
               <p className="text-gray-800 mb-6" style={{ textAlign: "justify" }}>
                 I am an enthusiastic, self-motivated, reliable, responsible, and hard-working person. I am a mature team
                 worker and adaptable to all challenging situations. I am able to work well both in a team environment
-                and using my own initiative. I am able to work well under pressure and adhere to strict deadlines. I am very passionate about improving my coding skills, Networking and Network Security. Working for myself to improve my skills. I believe in learning by doing and through mistakes and experience.
+                and using my own initiative. I am able to work well under pressure and adhere to strict deadlines. Working for myself to improve my skills.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                 <div>
@@ -207,14 +207,14 @@ export default function Home() {
             Projects <span className="text-[#fc8c05]">Made</span>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <ProjectCard
+          <ProjectCard
               title="Votex - Online Voting System"
               description="The Online Voting System. Which is developed by my team for the TI Fest 2081 organized by ANNFSU Himalayan WhiteHouse International College committee."
               image="/Votex.png"
               // liveUrl="https://github.com/HikmatBaniya/Itfest"
               codeUrl="https://github.com/HikmatBaniya/Itfest"
             />
-            
+
             <ProjectCard
               title="Travel Agency - Ghum Gham"
               description="This is about the landing page of a travel agency. Which is for the Frontend Design Fest organized by Whitehouse Innovator."
@@ -251,12 +251,12 @@ export default function Home() {
       <section className="py-20 bg-[#f7f7f7] text-black">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
-            Awards & <span className="text-[#011aff]">Recognition</span>
+            Awards & <span className="text-[#011aff]">Achievement</span>
           </h2>
           <p className="text-center text-gray-800 mb-16 max-w-3xl mx-auto">
-            Achievements and recognition for outstanding work
+            Achievements and achievement for outstanding work
           </p>
-          <div className="max-w-3xl mx-auto">
+            <div className="max-w-3xl mx-auto">
             <Card className="border border-gray-200 bg-white hover:shadow-lg transition-all duration-300">
               <CardContent className="p-8">
                 <div className="flex flex-col md:flex-row items-center gap-6">
@@ -322,7 +322,7 @@ export default function Home() {
                 </div>
               </CardContent>
             </Card>
-          </div>
+            </div>
         </div>
       </section>
 
