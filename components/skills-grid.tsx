@@ -23,23 +23,23 @@ export default function SkillsGrid() {
       name: "TCP/IP",
       icon: "https://img.icons8.com/color/48/000000/networking-manager.png",
     },
-    {
-      name: "Wireshark",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Wireshark_icon_new.png/768px-Wireshark_icon_new.png",
-    },
+    // {
+    //   name: "Wireshark",
+    //   icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Wireshark_icon_new.png/768px-Wireshark_icon_new.png",
+    // },
     // {
     //   name: "VPN Technologies",
     //   icon: "https://cdn-icons-png.flaticon.com/128/2665/2665268.png",
     // },
-    {
-      name: "Routing & Switching",
-      icon: "https://cdn-icons-png.flaticon.com/128/2248/2248677.png",
-    },
-    {
-      name: "Subnetting",
-      icon: "https://cdn-icons-png.flaticon.com/128/18983/18983852.png",
-      // svgIcon: <Network className="h-10 w-10 text-[#420177]" />,
-    },
+    // {
+    //   name: "Routing & Switching",
+    //   icon: "https://cdn-icons-png.flaticon.com/128/2248/2248677.png",
+    // },
+    // {
+    //   name: "Subnetting",
+    //   icon: "https://cdn-icons-png.flaticon.com/128/18983/18983852.png",
+    //   // svgIcon: <Network className="h-10 w-10 text-[#420177]" />,
+    // },
     // {
     //   name: "Firewalls",
     //   icon: "https://img.icons8.com/color/48/000000/firewall.png",
@@ -86,13 +86,13 @@ export default function SkillsGrid() {
       icon: "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
     },
     {
-      name: "Netlify",
-      icon: "https://www.svgrepo.com/show/373874/netlify.svg",
-    },
-    {
       name: "WordPress",
       icon: "https://img.icons8.com/color/48/000000/wordpress.png",
     },
+    // {
+    //   name: "Netlify",
+    //   icon: "https://www.svgrepo.com/show/373874/netlify.svg",
+    // },
     // {
     //   name: "Bootstrap",
     //   icon: "https://img.icons8.com/color/48/000000/bootstrap.png",
