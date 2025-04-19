@@ -25,17 +25,6 @@ export default function Home() {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#0e2431] mb-4">
                 Hi There, I'm <span className="text-[#fc8c05]">Bhusan Shrestha</span>
               </h1>
-              <p className="text-xl md:text-2xl text-gray-800 mb-6">
-                I am{" "}
-                <TypedText
-                  strings={[
-                    "Passionate About Networking",
-                    "Passionate About Network Security",
-                    "a Developer",
-                    "a Designer",
-                  ]}
-                />
-              </p>
               <div className="mt-8">
                 <Button
                   onClick={() => {
