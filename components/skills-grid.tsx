@@ -31,15 +31,15 @@ export default function SkillsGrid() {
     //   name: "VPN Technologies",
     //   icon: "https://cdn-icons-png.flaticon.com/128/2665/2665268.png",
     // },
-    // {
-    //   name: "Routing & Switching",
-    //   icon: "https://cdn-icons-png.flaticon.com/128/2248/2248677.png",
-    // },
-    // {
-    //   name: "Subnetting",
-    //   icon: "https://cdn-icons-png.flaticon.com/128/18983/18983852.png",
-    //   // svgIcon: <Network className="h-10 w-10 text-[#420177]" />,
-    // },
+    {
+      name: "Routing & Switching",
+      icon: "https://cdn-icons-png.flaticon.com/128/2248/2248677.png",
+    },
+    {
+      name: "Subnetting",
+      icon: "https://cdn-icons-png.flaticon.com/128/18983/18983852.png",
+      // svgIcon: <Network className="h-10 w-10 text-[#420177]" />,
+    },
     // {
     //   name: "Firewalls",
     //   icon: "https://img.icons8.com/color/48/000000/firewall.png",
