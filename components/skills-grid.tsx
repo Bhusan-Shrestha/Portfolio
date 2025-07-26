@@ -85,13 +85,13 @@ export default function SkillsGrid() {
       name: "JavaScript",
       icon: "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
     },
+        {
+      name: "PHP"
+      icon: "https://www.flaticon.com/free-icon/php_5968332?term=php&page=1&position=4&origin=search&related_id=5968332",
+    },
     {
       name: "WordPress",
       icon: "https://img.icons8.com/color/48/000000/wordpress.png",
-    },
-    {
-      name: "PHP"
-      icon: "<img width="48" height="48" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-hypertext-preprocessor-a-widely-used-open-source-general-purpose-scripting-language-logo-color-tal-revivo.png" alt="external-hypertext-preprocessor-a-widely-used-open-source-general-purpose-scripting-language-logo-color-tal-revivo"/>",
     },
     // {
     //   name: "Netlify",
