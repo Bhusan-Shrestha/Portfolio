@@ -23,10 +23,10 @@ export default function SkillsGrid() {
       name: "TCP/IP",
       icon: "https://img.icons8.com/color/48/000000/networking-manager.png",
     },
-    // {
-    //   name: "Wireshark",
-    //   icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Wireshark_icon_new.png/768px-Wireshark_icon_new.png",
-    // },
+    {
+      name: "Wireshark",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Wireshark_icon_new.png/768px-Wireshark_icon_new.png",
+    },
     // {
     //   name: "VPN Technologies",
     //   icon: "https://cdn-icons-png.flaticon.com/128/2665/2665268.png",
