@@ -89,6 +89,10 @@ export default function SkillsGrid() {
       name: "WordPress",
       icon: "https://img.icons8.com/color/48/000000/wordpress.png",
     },
+    {
+      name: "PHP"
+      icon: "<img width="48" height="48" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-hypertext-preprocessor-a-widely-used-open-source-general-purpose-scripting-language-logo-color-tal-revivo.png" alt="external-hypertext-preprocessor-a-widely-used-open-source-general-purpose-scripting-language-logo-color-tal-revivo"/>",
+    },
     // {
     //   name: "Netlify",
     //   icon: "https://www.svgrepo.com/show/373874/netlify.svg",
