@@ -87,7 +87,7 @@ export default function SkillsGrid() {
     },
         {
       name: "PHP",
-      icon: "https://www.flaticon.com/free-icon/php_5968332?term=php&page=1&position=4&origin=search&related_id=5968332",
+      icon: "https://img.icons8.com/?size=100&id=f0R4xVI4Sc8O&format=png&color=000000",
     },
     {
       name: "WordPress",
