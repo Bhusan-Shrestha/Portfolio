@@ -196,6 +196,14 @@ export default function Home() {
             Projects <span className="text-[#fc8c05]">Made</span>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <ProjectCard
+              title="Hospital Appointment System"
+              description="A Web base project done in the 5th semester project for BIT in Purbanchal University Course. With the help of two team members."
+              image="/HMS.png"
+              // liveUrl="https://github.com/HikmatBaniya/Itfest"
+              codeUrl="https://github.com/HikmatBaniya/Itfest"
+            />
+            
           <ProjectCard
               title="Votex - Online Voting System"
               description="The Online Voting System. Which is developed by my team for the TI Fest 2081 organized by ANNFSU Himalayan WhiteHouse International College committee."
