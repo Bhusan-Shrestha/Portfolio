@@ -16,33 +16,8 @@ interface Skill {
 export default function SkillsGrid() {
   const [skills, setSkills] = useState<Skill[]>([
     // {
-    //   name: "Cisco Networking",
-    //   icon: "https://cdn-icons-png.flaticon.com/512/882/882730.png",
-    // },
-    // {
-    //   name: "TCP/IP",
-    //   icon: "https://img.icons8.com/color/48/000000/networking-manager.png",
-    // },
-    // {
     //   name: "Wireshark",
     //   icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Wireshark_icon_new.png/768px-Wireshark_icon_new.png",
-    // },
-    // {
-    // name: "VPN Technologies",
-    // icon: "https://cdn-icons-png.flaticon.com/128/2665/2665268.png",
-    // },
-    // {
-    //   name: "Routing & Switching",
-    //   icon: "https://cdn-icons-png.flaticon.com/128/2248/2248677.png",
-    // },
-    // {
-    //   name: "Subnetting",
-    //   icon: "https://cdn-icons-png.flaticon.com/128/18983/18983852.png",
-    //   // svgIcon: <Network className="h-10 w-10 text-[#420177]" />,
-    // },
-    // {
-    // name: "Firewalls",
-    // icon: "https://img.icons8.com/color/48/000000/firewall.png",
     // },
     {
       name: "Linux",
@@ -54,12 +29,24 @@ export default function SkillsGrid() {
       // svgIcon: <Github className="h-10 w-10 text-[#333]" />,
     },
     {
-      name: "SQL",
-      icon: "https://cdn-icons-png.flaticon.com/512/4492/4492311.png",
+      name: "MYSQL",
+      icon: "https://futuresolutionsonline.co.uk/wp-content/uploads/2023/04/mySQL-logo.png",
+    },
+    {
+      name: "PostgreSQL",
+      icon: "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
+    },
+    {
+      name: "MongoDB",
+      icon: "https://www.mongodb.com/assets/images/global/favicon.ico",
     },
     {
       name: "Python",
       icon: "https://cdn-icons-png.flaticon.com/512/5968/5968350.png",
+    },
+     {
+      name: "Jupyter Notebook",
+      icon: "https://img.icons8.com/?size=100&id=J0SgMWzAxqFj&format=png&color=000000",
     },
     {
       name: "C++",
@@ -85,9 +72,17 @@ export default function SkillsGrid() {
       name: "JavaScript",
       icon: "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
     },
-        {
+    {
       name: "PHP",
       icon: "https://img.icons8.com/?size=100&id=f0R4xVI4Sc8O&format=png&color=000000",
+    },
+    {
+      name: "Spring Boot",
+      icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNou7-DlVcN5nOVq73_RDi6OAYZAzOknfzQw&s",
+    },
+    {
+      name: "Post Man",
+      icon: "https://icon.icepanel.io/Technology/svg/Postman.svg",
     },
     {
       name: "WordPress",
