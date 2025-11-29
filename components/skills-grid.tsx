@@ -29,7 +29,7 @@ export default function SkillsGrid() {
       // svgIcon: <Github className="h-10 w-10 text-[#333]" />,
     },
     {
-      name: "MYSQL",
+      name: "MySQL",
       icon: "https://futuresolutionsonline.co.uk/wp-content/uploads/2023/04/mySQL-logo.png",
     },
     {
