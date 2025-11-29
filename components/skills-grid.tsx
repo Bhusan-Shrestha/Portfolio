@@ -46,7 +46,7 @@ export default function SkillsGrid() {
     },
      {
       name: "Jupyter Notebook",
-      icon: "https://img.icons8.com/?size=100&id=J0SgMWzAxqFj&format=png&color=000000",
+      icon: "https://images.seeklogo.com/logo-png/35/1/jupyter-logo-png_seeklogo-354673.png",
     },
     {
       name: "C++",
