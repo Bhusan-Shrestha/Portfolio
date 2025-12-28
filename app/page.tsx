@@ -197,19 +197,27 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
-              title="Hospital Appointment System"
-              description="A Web base project done in the 5th semester project for BIT in Purbanchal University Course. With the help of two team members."
-              image="/HMS.png"
-              // liveUrl="https://github.com/HikmatBaniya/Itfest"
-              codeUrl="https://github.com/HikmatBaniya/Itfest"
+              title="Vehicle Classification System"
+              description="A machine learning project that classifies different types of vehicles using image processing techniques."
+              image="/Vehicle_Classification.jpeg"
+              // liveUrl="https://github.com/Bhusan-Shrestha/Vehicle_Classification"
+              codeUrl="https://github.com/Bhusan-Shrestha/Vehicle_Classification"
             />
             
           <ProjectCard
-              title="Votex - Online Voting System"
-              description="The Online Voting System. Which is developed by my team for the TI Fest 2081 organized by ANNFSU Himalayan WhiteHouse International College committee."
-              image="/Votex.png"
-              // liveUrl="https://github.com/HikmatBaniya/Itfest"
-              codeUrl="https://github.com/HikmatBaniya/Itfest"
+              title="Movie Recommendation System"
+              description="A movie recommendation system that suggests movies based on user preferences using collaborative filtering and content-based filtering techniques."
+              image="/Movie-Recommendation.jpeg"
+              // liveUrl="https://github.com/Bhusan-Shrestha/Movie-Recommendation"
+              codeUrl="https://github.com/Bhusan-Shrestha/Movie-Recommendation"
+            />
+
+            <ProjectCard
+              title="Heart Disease Classification"
+              description="A machine learning project that predicts the presence of heart disease in patients based on various health parameters."
+              image="/Heart-Disease-Classification.jpeg"
+              // liveUrl="https://github.com/Bhusan-Shrestha/Heart-Disease-Classification"
+              codeUrl="https://github.com/Bhusan-Shrestha/Heart-Disease-Classification"
             />
 
             <ProjectCard
@@ -228,17 +236,19 @@ export default function Home() {
             />
 
             <ProjectCard
-              title="Games based on Python language"
-              description="The games are based on the Python language for the skill enhancement. The games are quiz games, tic-tac-toe, guess the number, and rock paper scissors."
-              image="/Python-Games.png"
-              codeUrl="https://github.com/Bhusan-Shrestha/game_python"
+              title="Hospital Appointment System"
+              description="A Web base project done in the 5th semester project for BIT in Purbanchal University Course. With the help of two team members."
+              image="/HMS.png"
+              // liveUrl="https://github.com/Bhusan-Shrestha/Hospital-Appointment-System"
+              codeUrl="https://github.com/Bhusan-Shrestha/Hospital-Appointment-System"
             />
-
-            <ProjectCard
-              title="Water Level Monitoring System"
-              description="A microcontroller project done in C++ programming language is the 3rd semester project for BIT in Purbanchal University Course."
-              image="/Water-Level-Monitoring-System.jpg"
-              codeUrl="https://github.com/Bhusan-Shrestha/Water-Level-Monitering-System"
+            
+          <ProjectCard
+              title="Votex - Online Voting System"
+              description="The Online Voting System. Which is developed by my team for the TI Fest 2081 organized by ANNFSU Himalayan WhiteHouse International College committee."
+              image="/Votex.png"
+              // liveUrl="https://github.com/HikmatBaniya/Itfest"
+              codeUrl="https://github.com/HikmatBaniya/Itfest"
             />
           </div>
         </div>
