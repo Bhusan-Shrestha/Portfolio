@@ -16,10 +16,6 @@ interface Skill {
 export default function SkillsGrid() {
   const [skills, setSkills] = useState<Skill[]>([
     {
-      name: "Wireshark",
-      icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Wireshark_icon_new.png/768px-Wireshark_icon_new.png",
-    },
-    {
       name: "Linux",
       icon: "https://cdn-icons-png.flaticon.com/512/6124/6124995.png",
     },
@@ -71,6 +67,10 @@ export default function SkillsGrid() {
     {
       name: "JavaScript",
       icon: "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
+    },
+    {
+      name: "React",
+      icon: "https://cdn-icons-png.flaticon.com/512/1126/1126012.png",
     },
     {
       name: "PHP",
