@@ -37,12 +37,12 @@ export default function SkillsGrid() {
       icon: "https://www.mongodb.com/assets/images/global/favicon.ico",
     },
     {
-      name: "Python",
-      icon: "https://cdn-icons-png.flaticon.com/512/5968/5968350.png",
-    },
-     {
       name: "Jupyter Notebook",
       icon: "https://images.seeklogo.com/logo-png/35/1/jupyter-logo-png_seeklogo-354673.png",
+    },
+    {
+      name: "Python",
+      icon: "https://cdn-icons-png.flaticon.com/512/5968/5968350.png",
     },
     {
       name: "C++",
