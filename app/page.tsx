@@ -199,7 +199,7 @@ export default function Home() {
             <ProjectCard
               title="Movie Website"
               description="A movie website that is build using react for Frontend and spring boot for Backend which play movies and shows movie details."
-              image="/Movie-Website.jpeg"
+              image="/Movie-Website.png"
               // liveUrl="  "
               codeUrl="https://github.com/Bhusan-Shrestha/Movie-Website"
               codeUrl1="https://github.com/Bhusan-Shrestha/Movie-API"
