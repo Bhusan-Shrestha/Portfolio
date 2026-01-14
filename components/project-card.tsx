@@ -10,9 +10,10 @@ interface ProjectCardProps {
   image: string
   liveUrl?: string
   codeUrl: string
+  codeUrl1?: string
 }
 
-export default function ProjectCard({ title, description, image, liveUrl, codeUrl }: ProjectCardProps) {
+export default function ProjectCard({ title, description, image, liveUrl, codeUrl, codeUrl1 }: ProjectCardProps) {
   return (
     <Card className="overflow-hidden bg-white border-gray-200 hover:shadow-xl transition-all duration-300 hover:translate-y-[-5px]">
       <div className="h-48 relative group">
@@ -51,6 +52,18 @@ export default function ProjectCard({ title, description, image, liveUrl, codeUr
               <Code className="h-4 w-4 ml-2" />
             </Button>
           </Link>
+          {codeUrl1 && (
+            <Link href={codeUrl1} target="_blank">
+              <Button
+                variant="outline"
+                size="sm"
+                className="border-gray-300 hover:bg-[#2506ad] hover:text-white hover:border-[#2506ad] transition-colors duration-300"
+              >
+                Code
+                <Code className="h-4 w-4 ml-2" />
+              </Button>
+            </Link>
+          )}
         </div>
       </CardContent>
     </Card>
