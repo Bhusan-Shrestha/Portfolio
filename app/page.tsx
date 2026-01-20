@@ -197,7 +197,7 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
-              title="Movie Website"
+              title="Movie Streaming Platforms"
               description="A movie website that is build using react for Frontend and spring boot for Backend which play movies and shows movie details."
               image="/Movie-Website.png"
               // liveUrl="  "
