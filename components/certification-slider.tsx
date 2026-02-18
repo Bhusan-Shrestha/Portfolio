@@ -19,21 +19,27 @@ export default function CertificationSlider() {
 
   const certifications: Certification[] = [
     {
-      name: "Introduction to Data Science using Python",
+      name: "Data Analysis And Data Science Techniques",
+      issuer: "AITC International Pvt. Ltd.",
+      date: "2025",
+      category: "Programming",
+    },
+    {
+      name: "Introduction To Data Science Using Python",
       issuer: "Himalayan Whitehouse International College",
       date: "2023",
       category: "Programming",
     },
     {
-      name: "Network Security",
-      issuer: "Great Learning",
-      date: "2022",
+      name: "Cybersecurity Architecture Fundamentals And Tools",
+      issuer: "Mind Luster",
+      date: "2023",
       category: "Security",
     },
     {
-      name: "Cybersecurity architecture fundamentals and tools",
-      issuer: "Mind Luster",
-      date: "2023",
+      name: "Network Security",
+      issuer: "Great Learning",
+      date: "2022",
       category: "Security",
     },
     {
