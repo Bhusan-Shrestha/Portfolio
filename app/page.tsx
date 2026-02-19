@@ -37,7 +37,7 @@ export default function Home() {
                 </Button>
               </div>
               <div className="flex justify-center md:justify-start mt-8 gap-4">
-                <Link href="https://www.linkedin.com/in/itsbhushanshrestha/" target="_blank" aria-label="LinkedIn">
+                <Link href="https://www.linkedin.com/in/bhusan-shrestha/" target="_blank" aria-label="LinkedIn">
                   <Button
                     variant="outline"
                     size="icon"
