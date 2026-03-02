@@ -438,7 +438,7 @@ export default function Home() {
                 Madhyapur Thimi, Bhaktapur, Nepal
               </p>
               <div className="flex space-x-4">
-                <Link href="https://www.linkedin.com/in/itsbhushanshrestha/" target="_blank" aria-label="LinkedIn">
+                <Link href="https://www.linkedin.com/in/bhusan-shrestha/ target="_blank" aria-label="LinkedIn">
                   <Button
                     variant="outline"
                     size="icon"
@@ -489,7 +489,7 @@ export default function Home() {
           <div className="border-t border-gray-800 mt-12 pt-8 text-center">
             <p className="text-gray-400">
               &copy; Copyright{" "}
-              <Link href="https://www.linkedin.com/in/itsbhushanshrestha/" className="text-[#ffae00]">
+              <Link href="https://www.linkedin.com/in/bhusan-shrestha/" className="text-[#ffae00]">
                 Bhusan Shrestha
               </Link>{" "}
               <span>All Rights Reserved</span>
