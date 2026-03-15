@@ -12,11 +12,20 @@ import { useMobile } from "@/hooks/use-mobile"
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const [activeSection, setActiveSection] = useState("")
   const isMobile = useMobile()
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
+
+  const navLinks = [
+    { name: "Home", href: "#home" },
+    { name: "About", href: "#about" },
+    { name: "Skills", href: "#skills" },
+    { name: "Personal Skills", href: "#personal-skills" },
+    { name: "Projects", href: "#projects" },
+  ]
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,6 +40,38 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
+  // Set up Intersection Observer for scroll spy
+  useEffect(() => {
+    const observerOptions = {
+      root: null,
+      rootMargin: "-20% 0px -60% 0px", // Triggers when element is somewhat near middle of viewport
+      threshold: 0,
+    }
+
+    const observerCallback: IntersectionObserverCallback = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setActiveSection(`#${entry.target.id}`)
+        }
+      })
+    }
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions)
+
+    // Observe all sections mentioned in navLinks
+    navLinks.forEach((link) => {
+      const id = link.href.replace("#", "")
+      const element = document.getElementById(id)
+      if (element) {
+        observer.observe(element)
+      }
+    })
+
+    return () => {
+      observer.disconnect()
+    }
+  }, [navLinks]) // Re-run if navLinks change
+
   // Handle smooth scrolling for anchor links
   const handleAnchorClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault()
@@ -39,6 +80,9 @@ export default function Navbar() {
     if (isMenuOpen) {
       setIsMenuOpen(false)
     }
+
+    // Set active section immediately on click for better UX
+    setActiveSection(href)
 
     // Extract the id from the href
     const targetId = href.replace("#", "")
@@ -55,19 +99,11 @@ export default function Navbar() {
     }
   }
 
-  const navLinks = [
-    { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
-    { name: "Skills", href: "#skills" },
-    { name: "Personal Skills", href: "#personal-skills" },
-    { name: "Projects", href: "#projects" },
-  ]
-
   return (
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        scrolled ? "bg-white/90 dark:bg-slate-900/90 backdrop-blur-md shadow-md" : "bg-transparent",
+        "bg-white/90 dark:bg-slate-900/90 backdrop-blur-md shadow-md",
       )}
     >
       <div className="container mx-auto px-4">
@@ -84,7 +120,10 @@ export default function Navbar() {
                 onClick={(e) => handleAnchorClick(e, link.href)}
                 className={cn(
                   "text-sm font-medium transition-colors hover:text-[#011aff] hover:border-b-2 hover:border-[#011aff] hover:pb-1",
-                  scrolled ? "text-[#0e2431]" : "text-[#0e2431]",
+                  "text-[#0e2431]", // Always use dark color for text readability 
+                  activeSection === link.href 
+                    ? "text-[#011aff] border-b-2 border-[#011aff] pb-1" // Active state styles
+                    : ""
                 )}
               >
                 {link.name}
@@ -108,7 +147,12 @@ export default function Navbar() {
                   key={link.name}
                   href={link.href}
                   onClick={(e) => handleAnchorClick(e, link.href)}
-                  className="text-slate-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 py-2"
+                  className={cn(
+                    "py-2 transition-colors",
+                    activeSection === link.href
+                      ? "text-[#011aff] font-bold"
+                      : "text-slate-900 dark:text-white hover:text-[#011aff]"
+                  )}
                 >
                   {link.name}
                 </a>

@@ -95,7 +95,7 @@ export default function Home() {
       <section id="about" className="py-20 bg-[#f7f7f7]">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
-            About <span className="text-[#420177]">Me</span>
+            About <span className="text-[#011aff]">Me</span>
           </h2>
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="flex-1 flex justify-center">
@@ -116,7 +116,7 @@ export default function Home() {
               <p className="text-gray-800 mb-6" style={{ textAlign: "justify" }}>
                 I am an enthusiastic, self-motivated, reliable, responsible, and hard-working person. I am a mature team
                 worker and adaptable to all challenging situations. I am able to work well both in a team environment
-                and using my own initiative. I am able to work well under pressure and adhere to strict deadlines. I believe in learning by doing and through mistakes and experience. Working for myself to improve my skills.
+                and using my own initiative. I am able to work well under pressure and adhere to strict deadlines. I believe in learning by doing and through mistakes and experience. Working in myself to improve my skills.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                 <div>
@@ -137,14 +137,14 @@ export default function Home() {
                 </div>
               </div>
               <Button
-  onClick={() => {
-    window.open("/Bhusan_Shrestha_Resume.pdf", "_blank")
-  }}
-  className="bg-blue-600 hover:bg-blue-700 text-white"
->
-  Resume
-  <Download className="ml-2 h-4 w-4" />
-</Button>
+                onClick={() => {
+                  window.open("/Bhusan_Shrestha_Resume.pdf", "_blank")
+                }}
+                className="bg-blue-600 hover:bg-blue-700 text-white"
+              >
+                Resume
+                <Download className="ml-2 h-4 w-4" />
+              </Button>
             </div>
           </div>
         </div>
@@ -212,8 +212,8 @@ export default function Home() {
               // liveUrl="https://github.com/Bhusan-Shrestha/Vehicle_Classification"
               codeUrl="https://github.com/Bhusan-Shrestha/Vehicle_Classification"
             />
-            
-          <ProjectCard
+
+            <ProjectCard
               title="Movie Recommendation System"
               description="A movie recommendation system that suggests movies based on user preferences using collaborative filtering and content-based filtering techniques."
               image="/Movie-Recommendation.jpeg"
@@ -251,8 +251,8 @@ export default function Home() {
               // liveUrl="https://github.com/Bhusan-Shrestha/Hospital-Appointment-System"
               codeUrl="https://github.com/Bhusan-Shrestha/Hospital-Appointment-System"
             />
-            
-          <ProjectCard
+
+            <ProjectCard
               title="Votex - Online Voting System"
               description="The Online Voting System. Which is developed by my team for the TI Fest 2081 organized by ANNFSU Himalayan WhiteHouse International College committee."
               image="/Votex.png"
@@ -272,7 +272,7 @@ export default function Home() {
           <p className="text-center text-gray-800 mb-16 max-w-3xl mx-auto">
             Achievements and achievement for outstanding work
           </p>
-            <div className="max-w-3xl mx-auto">
+          <div className="max-w-3xl mx-auto">
             <Card className="border border-gray-200 bg-white hover:shadow-lg transition-all duration-300">
               <CardContent className="p-8">
                 <div className="flex flex-col md:flex-row items-center gap-6">
@@ -338,7 +338,7 @@ export default function Home() {
                 </div>
               </CardContent>
             </Card>
-            </div>
+          </div>
         </div>
       </section>
 
@@ -438,7 +438,7 @@ export default function Home() {
                 Madhyapur Thimi, Bhaktapur, Nepal
               </p>
               <div className="flex space-x-4">
-                <Link href="https://www.linkedin.com/in/bhusan-shrestha/ target="_blank" aria-label="LinkedIn">
+                <Link href="https://www.linkedin.com/in/bhusan-shrestha/" target="_blank" aria-label="LinkedIn">
                   <Button
                     variant="outline"
                     size="icon"
