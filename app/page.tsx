@@ -205,15 +205,6 @@ export default function Home() {
             />
 
             <ProjectCard
-              title="Movie Streaming Platforms"
-              description="A movie website that is build using react for Frontend and spring boot for Backend which play movies and shows movie details."
-              image="/Movie-Website.png"
-              // liveUrl="  "
-              codeUrl="https://github.com/Bhusan-Shrestha/Movie-Website"
-              codeUrl1="https://github.com/Bhusan-Shrestha/Movie-API"
-            />
-
-            <ProjectCard
               title="Vehicle Classification System"
               description="A machine learning project that classifies different types of vehicles using image processing techniques."
               image="/Vehicle_Classification.jpeg"
@@ -235,6 +226,15 @@ export default function Home() {
               image="/Heart-Disease-Classification.jpeg"
               // liveUrl="https://github.com/Bhusan-Shrestha/Heart-Disease-Classification"
               codeUrl="https://github.com/Bhusan-Shrestha/Heart-Disease-Classification"
+            />
+
+            <ProjectCard
+              title="Movie Streaming Platforms"
+              description="A movie website that is build using react for Frontend and spring boot for Backend which play movies and shows movie details."
+              image="/Movie-Website.png"
+              // liveUrl="  "
+              codeUrl="https://github.com/Bhusan-Shrestha/Movie-Website"
+              codeUrl1="https://github.com/Bhusan-Shrestha/Movie-API"
             />
 
             <ProjectCard
