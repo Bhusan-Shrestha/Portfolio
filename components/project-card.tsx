@@ -9,11 +9,10 @@ interface ProjectCardProps {
   description: string
   image: string
   liveUrl?: string
-  codeUrl: string
-  codeUrl1?: string
+  codeUrl?: string
 }
 
-export default function ProjectCard({ title, description, image, liveUrl, codeUrl, codeUrl1 }: ProjectCardProps) {
+export default function ProjectCard({ title, description, image, liveUrl, codeUrl }: ProjectCardProps) {
   return (
     <Card className="overflow-hidden bg-white border-gray-200 hover:shadow-xl transition-all duration-300 hover:translate-y-[-5px]">
       <div className="h-48 relative group">
@@ -31,7 +30,7 @@ export default function ProjectCard({ title, description, image, liveUrl, codeUr
         <p className="text-gray-700 mb-6 text-sm">{description}</p>
         <div className="flex gap-3">
           {liveUrl && (
-            <Link href={liveUrl} target="_blank">
+            <Link href={liveUrl} target="_blank" rel="noopener noreferrer">
               <Button
                 variant="outline"
                 size="sm"
@@ -42,18 +41,8 @@ export default function ProjectCard({ title, description, image, liveUrl, codeUr
               </Button>
             </Link>
           )}
-          <Link href={codeUrl} target="_blank">
-            <Button
-              variant="outline"
-              size="sm"
-              className="border-gray-300 hover:bg-[#2506ad] hover:text-white hover:border-[#2506ad] transition-colors duration-300"
-            >
-              Code
-              <Code className="h-4 w-4 ml-2" />
-            </Button>
-          </Link>
-          {codeUrl1 && (
-            <Link href={codeUrl1} target="_blank">
+          {codeUrl && (
+            <Link href={codeUrl} target="_blank" rel="noopener noreferrer">
               <Button
                 variant="outline"
                 size="sm"

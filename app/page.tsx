@@ -37,7 +37,7 @@ export default function Home() {
                 </Button>
               </div>
               <div className="flex justify-center md:justify-start mt-8 gap-4">
-                <Link href="https://www.linkedin.com/in/bhusan-shrestha/" target="_blank" aria-label="LinkedIn">
+                <Link href="https://www.linkedin.com/in/bhusan-shrestha/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Button
                     variant="outline"
                     size="icon"
@@ -46,7 +46,7 @@ export default function Home() {
                     <Linkedin className="h-5 w-5" />
                   </Button>
                 </Link>
-                <Link href="https://github.com/Bhusan-Shrestha/" target="_blank" aria-label="GitHub">
+                <Link href="https://github.com/Bhusan-Shrestha/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Button
                     variant="outline"
                     size="icon"
@@ -55,7 +55,7 @@ export default function Home() {
                     <Github className="h-5 w-5" />
                   </Button>
                 </Link>
-                <Link href="https://www.instagram.com/bhushan_shrestha_/" target="_blank" aria-label="Instagram">
+                <Link href="https://www.instagram.com/bhushan_shrestha_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                   <Button
                     variant="outline"
                     size="icon"
@@ -64,7 +64,7 @@ export default function Home() {
                     <Instagram className="h-5 w-5" />
                   </Button>
                 </Link>
-                <Link href="https://www.facebook.com/ItsBhushanShrestha/" target="_blank" aria-label="Facebook">
+                <Link href="https://www.facebook.com/ItsBhushanShrestha/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                   <Button
                     variant="outline"
                     size="icon"
@@ -234,7 +234,6 @@ export default function Home() {
               image="/Movie-Website.png"
               // liveUrl="  "
               codeUrl="https://github.com/Bhusan-Shrestha/Movie-Website"
-              codeUrl1="https://github.com/Bhusan-Shrestha/Movie-API"
             />
 
             <ProjectCard
@@ -256,7 +255,6 @@ export default function Home() {
               title="Hospital Appointment System"
               description="A Web base project done in the 5th semester project for BIT in Purbanchal University Course. With the help of two team members."
               image="/HMS.png"
-              // liveUrl="https://github.com/Bhusan-Shrestha/Hospital-Appointment-System"
               codeUrl="https://github.com/Bhusan-Shrestha/Hospital-Appointment-System"
             />
 
@@ -264,8 +262,8 @@ export default function Home() {
               title="Votex - Online Voting System"
               description="The Online Voting System. Which is developed by my team for the TI Fest 2081 organized by ANNFSU Himalayan WhiteHouse International College committee."
               image="/Votex.png"
-              // liveUrl="https://github.com/HikmatBaniya/Itfest"
-              codeUrl="https://github.com/HikmatBaniya/Itfest"
+              codeUrl="https://github.com/Bhusan-Shrestha/ItFest"
+              // liveUrl=""
             />
           </div>
         </div>
@@ -446,7 +444,7 @@ export default function Home() {
                 Madhyapur Thimi, Bhaktapur, Nepal
               </p>
               <div className="flex space-x-4">
-                <Link href="https://www.linkedin.com/in/bhusan-shrestha/" target="_blank" aria-label="LinkedIn">
+                <Link href="https://www.linkedin.com/in/bhusan-shrestha/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Button
                     variant="outline"
                     size="icon"
@@ -455,7 +453,7 @@ export default function Home() {
                     <Linkedin className="h-5 w-5" />
                   </Button>
                 </Link>
-                <Link href="https://github.com/Bhusan-Shrestha" target="_blank" aria-label="GitHub">
+                <Link href="https://github.com/Bhusan-Shrestha" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Button
                     variant="outline"
                     size="icon"
@@ -464,7 +462,7 @@ export default function Home() {
                     <Github className="h-5 w-5" />
                   </Button>
                 </Link>
-                <Link href="mailto:bhushanshrestha2060@gmail.com" target="_blank" aria-label="Mail">
+                <Link href="mailto:bhushanshrestha2060@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Mail">
                   <Button
                     variant="outline"
                     size="icon"
@@ -473,7 +471,7 @@ export default function Home() {
                     <Mail className="h-5 w-5" />
                   </Button>
                 </Link>
-                <Link href="https://www.instagram.com/bhushan_shrestha_/" target="_blank" aria-label="Instagram">
+                <Link href="https://www.instagram.com/bhushan_shrestha_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                   <Button
                     variant="outline"
                     size="icon"
@@ -482,7 +480,7 @@ export default function Home() {
                     <Instagram className="h-5 w-5" />
                   </Button>
                 </Link>
-                <Link href="https://www.facebook.com/ItsBhushanShrestha/" target="_blank" aria-label="Facebook">
+                <Link href="https://www.facebook.com/ItsBhushanShrestha/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                   <Button
                     variant="outline"
                     size="icon"
