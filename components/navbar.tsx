@@ -109,7 +109,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="/" className="text-xl md:text-2xl font-bold text-slate-900 dark:text-white">
-            Bhusan Shrestha
+            <strong>Bhusan Shrestha</strong>
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">
