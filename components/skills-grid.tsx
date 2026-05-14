@@ -4,6 +4,7 @@ import type React from "react"
 
 import { Card, CardContent } from "@/components/ui/card"
 import Image from "next/image"
+import { Code2, Database, GitBranch, Laptop2, Wrench, Boxes } from "lucide-react"
 
 interface Skill {
   name: string
@@ -12,6 +13,7 @@ interface Skill {
 }
 
 interface SkillCategory {
+  logo?: React.ReactNode
   title: string
   skills: Skill[]
 }
@@ -19,6 +21,11 @@ interface SkillCategory {
 export default function SkillsGrid() {
   const categories: SkillCategory[] = [
     {
+      logo: (
+        <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[#011aff] to-[#4a00e0] text-white shadow-md shadow-blue-200">
+          <Laptop2 className="h-5 w-5" />
+        </span>
+      ),
       title: "Frontend",
       skills: [
         {
@@ -44,6 +51,11 @@ export default function SkillsGrid() {
       ],
     },
     {
+      logo: (
+        <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[#0f172a] to-[#334155] text-white shadow-md shadow-slate-200">
+          <Code2 className="h-5 w-5" />
+        </span>
+      ),
       title: "Backend",
       skills: [
         {
@@ -61,6 +73,11 @@ export default function SkillsGrid() {
       ],
     },
     {
+      logo: (
+        <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[#0f766e] to-[#14b8a6] text-white shadow-md shadow-teal-200">
+          <Database className="h-5 w-5" />
+        </span>
+      ),
       title: "Databases",
       skills: [
         {
@@ -78,6 +95,11 @@ export default function SkillsGrid() {
       ],
     },
     {
+      logo: (
+        <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[#7c3aed] to-[#a855f7] text-white shadow-md shadow-violet-200">
+          <GitBranch className="h-5 w-5" />
+        </span>
+      ),
       title: "Version Control",
       skills: [
         {
@@ -91,6 +113,11 @@ export default function SkillsGrid() {
       ],
     },
     {
+      logo: (
+        <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[#f97316] to-[#fb923c] text-white shadow-md shadow-orange-200">
+          <Wrench className="h-5 w-5" />
+        </span>
+      ),
       title: "Tools",
       skills: [
         {
@@ -107,15 +134,20 @@ export default function SkillsGrid() {
         },
         {
           name: "Power BI",
-          icon: "/icons/power-bi.svg",
+          icon: "https://img.icons8.com/?size=100&id=Ny0t2MYrJ70p&format=png&color=000000",
         },
         {
           name: "Excel",
-          icon: "/icons/excel.svg",
+          icon: "https://img.icons8.com/?size=100&id=117561&format=png&color=000000",
         },
       ],
     },
     {
+      logo: (
+        <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[#1d4ed8] to-[#60a5fa] text-white shadow-md shadow-blue-200">
+          <Boxes className="h-5 w-5" />
+        </span>
+      ),
       title: "Programming Languages",
       skills: [
         {
@@ -143,8 +175,9 @@ export default function SkillsGrid() {
       {categories.map((category, categoryIndex) => (
         <Card key={categoryIndex} className="bg-white border-0 shadow-sm rounded-xl overflow-hidden hover:shadow-md transition-shadow duration-300">
           <CardContent className="p-6">
-            <h3 className="text-xl font-bold mb-6">
-              {category.title}
+            <h3 className="text-xl font-bold mb-6 flex items-center gap-2">
+              {category.logo && <span className="inline-flex">{category.logo}</span>}
+              <span>{category.title}</span>
             </h3>
             <div className="grid grid-cols-3 gap-y-6 gap-x-2">
               {category.skills.map((skill, index) => (
