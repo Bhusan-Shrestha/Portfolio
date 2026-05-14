@@ -1,5 +1,6 @@
 import type React from "react"
-import "./globals.css"
+// @ts-ignore: Allow importing global CSS without type declarations
+import "../styles/globals.css"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     "Bhusan Shrestha",
     "IT portfolio",
     "AI projects",
+    "Web development",
     "data analysis",
     "machine learning",
     "DevOps",
