@@ -107,11 +107,11 @@ export default function SkillsGrid() {
         },
         {
           name: "Power BI",
-          icon: "https://img.icons8.com/color/48/000000/microsoft-power-bi.png",
+          icon: "/icons/power-bi.svg",
         },
         {
-          name:"Excell",
-          icon:"https://img.icons8.com/color/48/000000/microsoft-excel.png"
+          name: "Excel",
+          icon: "/icons/excel.svg",
         },
       ],
     },
@@ -153,13 +153,25 @@ export default function SkillsGrid() {
                     {skill.svgIcon ? (
                       skill.svgIcon
                     ) : (
-                      <Image
-                        src={skill.icon || "/placeholder.svg"}
-                        alt={skill.name}
-                        width={40}
-                        height={40}
-                        className="object-contain"
-                      />
+                      skill.icon && skill.icon.startsWith("http") ? (
+                        // Use a plain <img> for remote icons to avoid optimization/network issues
+                        // (Next/Image can sometimes block or require extra config for external hosts)
+                        // width/height kept via CSS classes
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img
+                          src={skill.icon}
+                          alt={skill.name}
+                          className="w-10 h-10 object-contain"
+                        />
+                      ) : (
+                        <Image
+                          src={skill.icon || "/placeholder.svg"}
+                          alt={skill.name}
+                          width={40}
+                          height={40}
+                          className="object-contain"
+                        />
+                      )
                     )}
                   </div>
                   <span className="text-center font-medium text-xs text-gray-500 group-hover:text-gray-900 transition-colors">
