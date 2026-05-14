@@ -111,7 +111,7 @@ export default function Home() {
             <div className="flex-1">
               <h3 className="text-2xl font-bold mb-2 text-black">I am Bhusan Shrestha.</h3>
               <Badge className="mb-4 bg-blue-100 text-blue-800 hover:bg-blue-100">
-                Passionate about Learning New Things.
+                <em>Passionate about Learning New Things.</em>
               </Badge>
               <p className="text-gray-800 mb-6" style={{ textAlign: "justify" }}>
                 I am an enthusiastic, self-motivated, reliable, responsible, and hard-working person. I am a mature team
