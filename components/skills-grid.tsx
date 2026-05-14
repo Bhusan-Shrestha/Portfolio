@@ -101,6 +101,18 @@ export default function SkillsGrid() {
           name: "Post Man",
           icon: "https://icon.icepanel.io/Technology/svg/Postman.svg",
         },
+        {
+          name: "Docker",
+          icon: "https://img.icons8.com/color/48/000000/docker.png",
+        },
+        {
+          name: "Power BI",
+          icon: "https://img.icons8.com/color/48/000000/microsoft-power-bi.png",
+        },
+        {
+          name:"Excell",
+          icon:"https://img.icons8.com/color/48/000000/microsoft-excel.png"
+        },
       ],
     },
     {

@@ -11,15 +11,15 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   metadataBase: new URL("https://bhusan-shrestha.github.io"),
   title: {
-    default: "Bhusan Shrestha | IT Portfolio",
+    default: "Bhusan Shrestha | Full-Stack Developer & AI Enthusiast",
     template: "%s | Bhusan Shrestha",
   },
   description:
-    "Portfolio of Bhusan Shrestha, an aspiring IT professional focused on AI, data analysis, DevOps, and machine learning projects.",
+    "Portfolio website of Bhusan Shrestha featuring projects and expertise in web development, AI, machine learning, DevOps, and Explore the portfolio of Bhusan Shrestha, showcasing web development, AI, machine learning, DevOps, and data-driven solutions.",
   keywords: [
     "Bhusan Shrestha",
-    "IT portfolio",
-    "AI projects",
+    "Full-Stack Developer",
+    "AI Enthusiast",
     "Web development",
     "data analysis",
     "machine learning",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Bhusan Shrestha | IT Portfolio",
+    title: "Bhusan Shrestha | Full-Stack Developer & AI Enthusiast",
     description:
       "Explore projects and skills in AI, data analysis, web development, and DevOps by Bhusan Shrestha.",
     url: "/",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bhusan Shrestha | IT Portfolio",
+    title: "Bhusan Shrestha | Full-Stack Developer & AI Enthusiast",
     description:
       "Explore projects and skills in AI, data analysis, web development, and DevOps by Bhusan Shrestha.",
     images: ["/hero-bhusan.jpg"],
