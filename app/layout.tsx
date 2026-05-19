@@ -9,7 +9,7 @@ import Navbar from "@/components/navbar"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://bhusan-shrestha.github.io"),
+  metadataBase: new URL("https://bhusanshrestha.com.np/"),
   title: {
     default: "Bhusan Shrestha | Full-Stack Developer & AI Enthusiast",
     template: "%s | Bhusan Shrestha",
