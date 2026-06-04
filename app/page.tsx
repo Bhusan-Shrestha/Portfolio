@@ -197,6 +197,14 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
+              title="Hamro Restaurant"
+              description="A responsive website for a local restaurant built with PHP, HTML, JavaScript and CSS."
+              image="/Hamro-Restaurant.png"
+              // liveUrl="  "
+              codeUrl="https://github.com/Bhusan-Shrestha/Restaurant-website"
+            />
+
+            <ProjectCard
               title="Power BI using XGBoost"
               description="Developed a full-stack Business Intelligence system for sales and inventory analysis with integrated XGBoost-based forecasting."
               image="/Power-BI.png"
