@@ -121,7 +121,7 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
                 <div>
                   <p className="text-gray-800">
-                    <span className="font-semibold">Degree:</span> BIT Running
+                    <span className="font-semibold">Degree:</span> BIT (Bachelor in Information Technology)
                   </p>
                   <p className="text-gray-800">
                     <span className="font-semibold">Phone:</span> +977 9814247219
