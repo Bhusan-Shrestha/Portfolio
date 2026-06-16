@@ -15,14 +15,14 @@ export const metadata: Metadata = {
     template: "%s | Bhusan Shrestha",
   },
   description:
-    "Portfolio website of Bhusan Shrestha featuring projects and expertise in web development, AI, machine learning, DevOps, and Explore the portfolio of Bhusan Shrestha, showcasing web development, AI, machine learning, DevOps, and data-driven solutions.",
+    "Portfolio website of Bhusan Shrestha featuring projects and expertise in Web development, AI, Machine Learning, DevOps, and Explore the portfolio of Bhusan Shrestha, showcasing Web development, AI, Machine Learning, DevOps, and data-driven solutions.",
   keywords: [
     "Bhusan Shrestha",
     "Full-Stack Developer",
     "AI Enthusiast",
     "Web development",
     "data analysis",
-    "machine learning",
+    "Machine Learning",
     "DevOps",
     "Nepal developer",
   ],
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Bhusan Shrestha | Full-Stack Developer & AI Enthusiast",
     description:
-      "Explore projects and skills in AI, data analysis, web development, and DevOps by Bhusan Shrestha.",
+      "Explore projects and skills in AI, Data analysis, Web development, and DevOps by Bhusan Shrestha.",
     url: "/",
     siteName: "Bhusan Shrestha Portfolio",
     type: "website",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Bhusan Shrestha | Full-Stack Developer & AI Enthusiast",
     description:
-      "Explore projects and skills in AI, data analysis, web development, and DevOps by Bhusan Shrestha.",
+      "Explore projects and skills in AI, Data analysis, Web development, and DevOps by Bhusan Shrestha.",
     images: ["/hero-bhusan.jpg"],
   },
   robots: {
