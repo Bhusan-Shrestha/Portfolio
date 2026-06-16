@@ -325,6 +325,14 @@ export default function Home() {
             />
 
             <ProjectCard
+              title="Real Estate"
+              description="A full-stack Real Estate website built with React for the frontend and node.js for the backend, featuring product listings, favorite functionality, role-based access control and secure user authentication."
+              image="/Real-Estate.png"
+              // liveUrl="  "
+              codeUrl="https://github.com/Bhusan-Shrestha/Real-Estate"
+              />
+
+            <ProjectCard
               title="Vehicle Classification System"
               description="A machine learning project that classifies different types of vehicles using image processing techniques."
               image="/Vehicle_Classification.jpeg"
