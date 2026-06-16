@@ -94,9 +94,12 @@ export default function Home() {
       {/* About Section */}
       <section id="about" className="py-20 bg-[#f7f7f7]">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
             About <span className="text-[#011aff]">Me</span>
           </h2>
+          <p className="text-center text-gray-800 mb-16 max-w-3xl mx-auto">
+            Passionate technology enthusiast with a strong interest in software development, cybersecurity, and continuous learning.
+          </p>
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="flex-1 flex justify-center">
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-lg overflow-hidden shadow-xl">
@@ -150,13 +153,119 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Experience Section */}
+      <section id="experience" className="py-20 bg-[#f7f7f7] text-black">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
+            Professional <span className="text-[#fc8c05]">Experience</span>
+          </h2>
+          <p className="text-center text-gray-800 mb-16 max-w-3xl mx-auto">
+            Practical experience gained through projects, internships, and professional work environments.
+          </p>
+          <div className="space-y-6">
+            {/* Experience Item 1 */}
+            <Card className="border border-gray-200 bg-white hover:shadow-lg transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="flex items-start gap-6">
+                  <div className="w-16 h-16 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-8 w-8 text-[#011aff]"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold text-gray-900 mb-1">Backend Intern</h3>
+                    <p className="text-[#011aff] font-semibold mb-1">Crystal Engineering & Management Consultant Pvt. Ltd.</p>
+                    <p className="text-gray-600 mb-3 text-sm">November 2025 - February 2026</p>
+                    <p className="text-gray-800">
+                      Developed and maintained backend services for a Movie Streaming Platform using Java and Spring Boot, ensuring efficient data processing and seamless integration with frontend components. Design and implement RESTful APIs, resulting in improved application performance and user experience.
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Experience Item 2
+            <Card className="border border-gray-200 bg-white hover:shadow-lg transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="flex items-start gap-6">
+                  <div className="w-16 h-16 rounded-lg bg-orange-100 flex items-center justify-center flex-shrink-0">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-8 w-8 text-[#fc8c05]"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold text-gray-900 mb-1">Full Stack Intern</h3>
+                    <p className="text-[#fc8c05] font-semibold mb-1">Company Name</p>
+                    <p className="text-gray-600 mb-3 text-sm">Month Year - Month Year</p>
+                    <p className="text-gray-800">
+                      Add your job responsibilities and achievements here. Describe the impact you made and skills you utilized during this role.
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card> */}
+
+            {/* Experience Item 3
+            <Card className="border border-gray-200 bg-white hover:shadow-lg transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="flex items-start gap-6">
+                  <div className="w-16 h-16 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-8 w-8 text-[#011aff]"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    >
+                      <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                    </svg>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold text-gray-900 mb-1">Position Title</h3>
+                    <p className="text-[#011aff] font-semibold mb-1">Company Name</p>
+                    <p className="text-gray-600 mb-3 text-sm">Month Year - Present</p>
+                    <p className="text-gray-800">
+                      Add your job responsibilities and achievements here. Describe the impact you made and skills you utilized during this role.
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card> */}
+          </div>
+        </div>
+      </section>
+
       {/* Skills Section */}
       <section id="skills" className="py-20 bg-[#f7f7f7] text-black">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
-            Technical <span className="text-[#fc8c05]">Skills</span>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
+            Technical <span className="text-[#011aff]">Skills</span>
           </h2>
-          <p className="text-center text-lg mb-12 max-w-3xl mx-auto text-gray-800">
+          <p className="text-center text-gray-800 mb-16 max-w-3xl mx-auto">
             Specialized in programming languages, development technologies, and problem-solving
           </p>
           <SkillsGrid />
@@ -166,10 +275,10 @@ export default function Home() {
       {/* Personal Development & Social Skills Section */}
       <section id="personal-skills" className="py-20 bg-[#f7f7f7] text-black">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
             Personal Development & <span className="text-[#fc8c05]">Social Skills</span>
           </h2>
-          <p className="text-center text-lg mb-12 max-w-3xl mx-auto text-gray-800">
+          <p className="text-center text-gray-800 mb-16 max-w-3xl mx-auto">
             Soft skills that enhance professional capabilities and teamwork
           </p>
           <PersonalSkills />
@@ -192,9 +301,12 @@ export default function Home() {
       {/* Projects Section */}
       <section id="projects" className="py-20 bg-[#f7f7f7] text-black">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
             Projects <span className="text-[#fc8c05]">Made</span>
           </h2>
+          <p className="text-center text-gray-800 mb-16 max-w-3xl mx-auto">
+            A showcase of my projects, demonstrating my skills, creativity and problem-solving abilities in software development.
+          </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
               title="Hamro Restaurant"
@@ -363,7 +475,7 @@ export default function Home() {
             <div>
               <h3 className="text-xl font-bold mb-4">Bhusan's Portfolio</h3>
               <p className="text-gray-400 mb-4">
-                Thank you for visiting my personal portfolio website. Connect with me over socials.
+                Thank you for visiting my personal portfolio website. Connect with me over social Media.
                 <br />
                 <br />
                 Keep Rising 🚀. Connect with me!
@@ -385,6 +497,14 @@ export default function Home() {
                     <span className="flex items-center">
                       <ChevronDown className="h-4 w-4 mr-2 rotate-90" />
                       About
+                    </span>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#experience" className="text-gray-400 hover:text-[#ffae00] transition-colors">
+                    <span className="flex items-center">
+                      <ChevronDown className="h-4 w-4 mr-2 rotate-90" />
+                      Experience
                     </span>
                   </Link>
                 </li>

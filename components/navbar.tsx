@@ -22,6 +22,7 @@ export default function Navbar() {
   const navLinks = [
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
+    { name: "Experience", href: "#experience" },
     { name: "Skills", href: "#skills" },
     { name: "Personal Skills", href: "#personal-skills" },
     { name: "Projects", href: "#projects" },
@@ -109,7 +110,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="/" className="text-xl md:text-2xl font-bold text-slate-900 dark:text-white">
-            <strong>Bhusan Shrestha</strong>
+            Bhusan Shrestha
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">
