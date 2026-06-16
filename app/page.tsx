@@ -163,24 +163,42 @@ export default function Home() {
             Practical experience gained through projects, internships, and professional work environments.
           </p>
           <div className="space-y-6">
-            {/* Experience Item 1 */}
+
+            <Card className="border border-gray-200 bg-white hover:shadow-lg transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="flex items-start gap-6">
+                  <div className="w-16 h-16 rounded-lg bg-orange-100 flex items-center justify-center flex-shrink-0">
+                    <Image
+                      src="https://www.xenatechnepal.com/images/logo.png"
+                      alt="Xenatech Nepal logo"
+                      width={55}
+                      height={55}
+                      className="object-contain"
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold text-gray-900 mb-1">Full Stack Intern</h3>
+                    <p className="text-[#fc8c05] font-semibold mb-1">Xenatech Nepal Pvt. Ltd.</p>
+                    <p className="text-gray-600 mb-3 text-sm">May 2026 - Present</p>
+                    <p className="text-gray-800">
+                      Contributed to the SEO optimization of the real world websites, Build  Restaurant website using PHP, HTML, JavaScript and CSS.
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
             <Card className="border border-gray-200 bg-white hover:shadow-lg transition-all duration-300">
               <CardContent className="p-8">
                 <div className="flex items-start gap-6">
                   <div className="w-16 h-16 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-8 w-8 text-[#011aff]"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-                    </svg>
+                    <Image
+                      src="https://www.cemc.com.np/assets/log_full_color-xlrhyXua.svg"
+                      alt="Crystal Engineering & Management Consultant logo"
+                      width={55}
+                      height={55}
+                      className="object-contain"
+                    />
                   </div>
                   <div className="flex-1">
                     <h3 className="text-xl font-bold text-gray-900 mb-1">Backend Intern</h3>
@@ -193,37 +211,6 @@ export default function Home() {
                 </div>
               </CardContent>
             </Card>
-
-            {/* Experience Item 2
-            <Card className="border border-gray-200 bg-white hover:shadow-lg transition-all duration-300">
-              <CardContent className="p-8">
-                <div className="flex items-start gap-6">
-                  <div className="w-16 h-16 rounded-lg bg-orange-100 flex items-center justify-center flex-shrink-0">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-8 w-8 text-[#fc8c05]"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-                    </svg>
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-bold text-gray-900 mb-1">Full Stack Intern</h3>
-                    <p className="text-[#fc8c05] font-semibold mb-1">Company Name</p>
-                    <p className="text-gray-600 mb-3 text-sm">Month Year - Month Year</p>
-                    <p className="text-gray-800">
-                      Add your job responsibilities and achievements here. Describe the impact you made and skills you utilized during this role.
-                    </p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card> */}
 
             {/* Experience Item 3
             <Card className="border border-gray-200 bg-white hover:shadow-lg transition-all duration-300">

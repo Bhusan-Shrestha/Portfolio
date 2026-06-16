@@ -15,6 +15,16 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'www.cemc.com.np',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.xenatechnepal.com',
+      },
+    ],
   },
   experimental: {
     webpackBuildWorker: true,
