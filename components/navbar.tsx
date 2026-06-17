@@ -23,8 +23,8 @@ export default function Navbar() {
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
     { name: "Experience", href: "#experience" },
-    { name: "Skills", href: "#skills" },
-    { name: "Personal Skills", href: "#personal-skills" },
+    { name: "Tech Skills", href: "#skills" },
+    { name: "Social Skills", href: "#personal-skills" },
     { name: "Projects", href: "#projects" },
   ]
 
