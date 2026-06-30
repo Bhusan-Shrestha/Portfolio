@@ -177,7 +177,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-xl font-bold text-gray-900 mb-1">Full Stack Intern</h3>
+                    <h3 className="text-xl font-bold text-gray-900 mb-1">Frontend Intern</h3>
                     <p className="text-[#fc8c05] font-semibold mb-1">Xenatech Nepal Pvt. Ltd.</p>
                     <p className="text-gray-600 mb-3 text-sm">May 2026 - Present</p>
                     <p className="text-gray-800">
