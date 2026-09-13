@@ -21,7 +21,7 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="flex-1 text-center md:text-left">
-              <Badge className="mb-4 bg-blue-100 text-[#420177] hover:bg-blue-200"><em>ASPIRING DevOps ENGINEER</em></Badge>
+              <Badge className="mb-4 bg-blue-100 text-[#420177] hover:bg-blue-200"><em>ASPIRING DEVOPS ENGINEER</em></Badge>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#0e2431] mb-4">
                 Hi There, I'm <span className="text-[#fc8c05]">Bhusan Shrestha</span>
               </h1>
