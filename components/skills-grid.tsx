@@ -121,16 +121,8 @@ export default function SkillsGrid() {
       title: "Tools",
       skills: [
         {
-          name: "Linux",
-          icon: "https://cdn-icons-png.flaticon.com/512/6124/6124995.png",
-        },
-        {
           name: "Post Man",
           icon: "https://icon.icepanel.io/Technology/svg/Postman.svg",
-        },
-        {
-          name: "Docker",
-          icon: "https://img.icons8.com/color/48/000000/docker.png",
         },
         {
           name: "Power BI",
@@ -139,6 +131,36 @@ export default function SkillsGrid() {
         {
           name: "Excel",
           icon: "https://img.icons8.com/?size=100&id=117561&format=png&color=000000",
+        },
+      ],
+    },
+    {
+      logo: (
+        <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[#0f766e] to-[#0ea5e9] text-white shadow-md shadow-cyan-200">
+          <GitBranch className="h-5 w-5" />
+        </span>
+      ),
+      title: "DevOps",
+      skills: [
+        {
+          name: "Linux",
+          icon: "https://cdn-icons-png.flaticon.com/512/6124/6124995.png",
+        },
+        {
+          name: "CI/CD",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg",
+        },
+        {
+          name: "Docker",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+        },
+        {
+          name: "Ansible",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ansible/ansible-original.svg",
+        },
+        {
+          name: "Terraform",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg",
         },
       ],
     },

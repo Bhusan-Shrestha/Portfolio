@@ -24,6 +24,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'www.xenatechnepal.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'cdn.brandfetch.io',
+      },
     ],
   },
   experimental: {

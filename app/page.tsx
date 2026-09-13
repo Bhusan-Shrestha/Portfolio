@@ -21,7 +21,7 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="flex-1 text-center md:text-left">
-              <Badge className="mb-4 bg-blue-100 text-[#420177] hover:bg-blue-200"><em>ASPIRING IT PROFESSIONAL</em></Badge>
+              <Badge className="mb-4 bg-blue-100 text-[#420177] hover:bg-blue-200"><em>ASPIRING DevOps ENGINEER</em></Badge>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#0e2431] mb-4">
                 Hi There, I'm <span className="text-[#fc8c05]">Bhusan Shrestha</span>
               </h1>
@@ -167,6 +167,30 @@ export default function Home() {
             <Card className="border border-gray-200 bg-white hover:shadow-lg transition-all duration-300">
               <CardContent className="p-8">
                 <div className="flex items-start gap-6">
+                  <div className="w-16 h-16 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
+                     <Image
+                      src="https://cdn.brandfetch.io/id6mAgkL0B/w/400/h/400/theme/dark/icon.jpeg?c=1dxbfHSJFAPEGdCLU4o5B"
+                      alt="PortPro logo"
+                      width={55}
+                      height={55}
+                      className="object-contain"
+                    />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold text-gray-900 mb-1">DevOps Intern</h3>
+                    <p className="text-[#011aff] font-semibold mb-1">PortPro Technologies, Inc.</p>
+                    <p className="text-gray-600 mb-3 text-sm">August 2026 - November 2026</p>
+                    <p className="text-gray-800">
+                      Gained hands-on experience in DevOps practices, including continuous integration and deployment (CI/CD), containerization using Docker, and infrastructure automation with tools like Ansible and Terraform. Collaborated with development teams to streamline the software delivery process and improve system reliability.
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border border-gray-200 bg-white hover:shadow-lg transition-all duration-300">
+              <CardContent className="p-8">
+                <div className="flex items-start gap-6">
                   <div className="w-16 h-16 rounded-lg bg-orange-100 flex items-center justify-center flex-shrink-0">
                     <Image
                       src="https://www.xenatechnepal.com/images/logo.png"
@@ -212,36 +236,6 @@ export default function Home() {
               </CardContent>
             </Card>
 
-            {/* Experience Item 3
-            <Card className="border border-gray-200 bg-white hover:shadow-lg transition-all duration-300">
-              <CardContent className="p-8">
-                <div className="flex items-start gap-6">
-                  <div className="w-16 h-16 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-8 w-8 text-[#011aff]"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-                    </svg>
-                  </div>
-                  <div className="flex-1">
-                    <h3 className="text-xl font-bold text-gray-900 mb-1">Position Title</h3>
-                    <p className="text-[#011aff] font-semibold mb-1">Company Name</p>
-                    <p className="text-gray-600 mb-3 text-sm">Month Year - Present</p>
-                    <p className="text-gray-800">
-                      Add your job responsibilities and achievements here. Describe the impact you made and skills you utilized during this role.
-                    </p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card> */}
           </div>
         </div>
       </section>
