@@ -103,7 +103,7 @@
   }
 
   .dark .bg-\[\#f7f7f7\] {
-    background-color: #050517;
+    background-color: #000000;
   }
 
   .dark .bg-white {
@@ -121,7 +121,7 @@
   }
 
   .dark footer {
-    background-color: #050517;
+    background-color: #000000;
   }
 
   ::selection {
@@ -158,4 +158,5 @@
       background-position: 0% 50%;
     }
   }
+
 }

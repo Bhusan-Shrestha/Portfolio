@@ -158,7 +158,7 @@ export default function Navbar() {
     <header
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-        "bg-white/90 dark:bg-slate-900/90 backdrop-blur-md shadow-md",
+        "bg-white/75 dark:bg-black/75 backdrop-blur-md shadow-md",
       )}
     >
       <div className="container mx-auto px-4">
@@ -175,7 +175,7 @@ export default function Navbar() {
                 onClick={(e) => handleAnchorClick(e, link.href)}
                 className={cn(
                   "text-sm font-medium transition-colors hover:text-[#011aff] hover:border-b-2 hover:border-[#011aff] hover:pb-1",
-                  "text-slate-900 dark:text-white",
+                  "text-slate-900/90 dark:text-white/90",
                   activeSection === link.href
                     ? "text-[#011aff] border-b-2 border-[#011aff] pb-1"
                     : "",
@@ -203,7 +203,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white dark:bg-slate-900 shadow-lg">
+        <div className="md:hidden bg-white/90 dark:bg-black/90 backdrop-blur-md shadow-lg">
           <div className="container mx-auto px-4 py-4">
             <nav className="flex flex-col space-y-4">
               {navLinks.map((link) => (
@@ -215,7 +215,7 @@ export default function Navbar() {
                     "py-2 transition-colors",
                     activeSection === link.href
                       ? "text-[#011aff] font-bold"
-                      : "text-slate-900 dark:text-white hover:text-[#011aff]"
+                      : "text-slate-900/90 dark:text-white/90 hover:text-[#011aff]"
                   )}
                 >
                   {link.name}

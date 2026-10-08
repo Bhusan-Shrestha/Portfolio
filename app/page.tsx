@@ -465,12 +465,12 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#00012b] text-white py-12">
+      <footer className="bg-slate-100 text-slate-900 py-12 dark:bg-black dark:text-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <h3 className="text-xl font-bold mb-4">Bhusan's Portfolio</h3>
-              <p className="text-gray-400 mb-4">
+              <p className="text-slate-600 dark:text-gray-400 mb-4">
                 Thank you for visiting my personal portfolio website. Connect with me over social Media.
                 <br />
                 <br />
@@ -481,7 +481,7 @@ export default function Home() {
               <h3 className="text-xl font-bold mb-4">Quick Links</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="#home" className="text-gray-400 hover:text-[#ffae00] transition-colors">
+                  <Link href="#home" className="text-slate-600 dark:text-gray-400 hover:text-[#ffae00] transition-colors">
                     <span className="flex items-center">
                       <ChevronDown className="h-4 w-4 mr-2 rotate-90" />
                       Home
@@ -489,7 +489,7 @@ export default function Home() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#about" className="text-gray-400 hover:text-[#ffae00] transition-colors">
+                  <Link href="#about" className="text-slate-600 dark:text-gray-400 hover:text-[#ffae00] transition-colors">
                     <span className="flex items-center">
                       <ChevronDown className="h-4 w-4 mr-2 rotate-90" />
                       About
@@ -497,7 +497,7 @@ export default function Home() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#experience" className="text-gray-400 hover:text-[#ffae00] transition-colors">
+                  <Link href="#experience" className="text-slate-600 dark:text-gray-400 hover:text-[#ffae00] transition-colors">
                     <span className="flex items-center">
                       <ChevronDown className="h-4 w-4 mr-2 rotate-90" />
                       Experience
@@ -505,7 +505,7 @@ export default function Home() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#skills" className="text-gray-400 hover:text-[#ffae00] transition-colors">
+                  <Link href="#skills" className="text-slate-600 dark:text-gray-400 hover:text-[#ffae00] transition-colors">
                     <span className="flex items-center">
                       <ChevronDown className="h-4 w-4 mr-2 rotate-90" />
                       Tech Skills
@@ -513,7 +513,7 @@ export default function Home() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#personal-skills" className="text-gray-400 hover:text-[#ffae00] transition-colors">
+                  <Link href="#personal-skills" className="text-slate-600 dark:text-gray-400 hover:text-[#ffae00] transition-colors">
                     <span className="flex items-center">
                       <ChevronDown className="h-4 w-4 mr-2 rotate-90" />
                       Social Skills
@@ -521,7 +521,7 @@ export default function Home() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#projects" className="text-gray-400 hover:text-[#ffae00] transition-colors">
+                  <Link href="#projects" className="text-slate-600 dark:text-gray-400 hover:text-[#ffae00] transition-colors">
                     <span className="flex items-center">
                       <ChevronDown className="h-4 w-4 mr-2 rotate-90" />
                       Projects
@@ -532,7 +532,7 @@ export default function Home() {
             </div>
             <div>
               <h3 className="text-xl font-bold mb-4">Contact Info</h3>
-              <p className="text-gray-400 flex items-center mb-2">
+              <p className="text-slate-600 dark:text-gray-400 flex items-center mb-2">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5 mr-2"
@@ -547,11 +547,11 @@ export default function Home() {
                 </svg>
                 +977 9814247219
               </p>
-              <p className="text-gray-400 flex items-center mb-2">
+              <p className="text-slate-600 dark:text-gray-400 flex items-center mb-2">
                 <Mail className="h-5 w-5 mr-2" />
                 bhushanshrestha2060@gmail.com
               </p>
-              <p className="text-gray-400 flex items-center mb-4">
+              <p className="text-slate-600 dark:text-gray-400 flex items-center mb-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5 mr-2"
@@ -617,7 +617,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-12 pt-8 text-center">
-            <p className="text-gray-400">
+            <p className="text-slate-600 dark:text-gray-400">
               &copy; Copyright{" "}
               <Link href="https://www.linkedin.com/in/bhusan-shrestha/" className="text-[#ffae00]">
                 Bhusan Shrestha
