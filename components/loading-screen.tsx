@@ -66,11 +66,11 @@ export default function LoadingScreen() {
       aria-label="Loading portfolio"
       aria-live="polite"
       className={cn(
-        "fixed inset-0 z-[100] flex items-center justify-center overflow-hidden bg-slate-50 text-slate-950 transition-opacity duration-500 dark:bg-black dark:text-white",
+        "fixed inset-0 z-[100] flex items-center justify-center overflow-hidden bg-slate-50 text-slate-950 transition-opacity duration-500 dark:bg-background dark:text-white",
         isLeaving && "pointer-events-none opacity-0",
       )}
     >
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_#dbeafe_0%,_#f8fafc_42%,_#e2e8f0_78%)] dark:bg-[radial-gradient(circle_at_center,_#172554_0%,_#050517_42%,_#000000_78%)]" />
+      <div className="absolute inset-0 bg-slate-50 dark:bg-background" />
       <div className="relative z-10 w-full max-w-5xl px-6">
         {phase === "preparing" ? (
           <div className="animate-in fade-in duration-500 text-center">

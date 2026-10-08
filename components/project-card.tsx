@@ -26,8 +26,8 @@ export default function ProjectCard({ title, description, image, liveUrl, codeUr
       </div>
       <CardContent className="p-6 relative">
         <div className="absolute top-0 right-0 left-0 h-1 bg-gradient-to-r from-[#2506ad] to-[#4a00e0]"></div>
-        <h3 className="text-xl font-bold text-[#0e2431] mb-2">{title}</h3>
-        <p className="text-gray-700 mb-6 text-sm">{description}</p>
+        <h3 className="text-xl font-bold text-[#0e2431] mb-2 dark:text-slate-100">{title}</h3>
+        <p className="text-gray-700 mb-6 text-sm dark:text-slate-300">{description}</p>
         <div className="flex gap-3">
           {liveUrl && (
             <Link href={liveUrl} target="_blank" rel="noopener noreferrer">
@@ -58,4 +58,3 @@ export default function ProjectCard({ title, description, image, liveUrl, codeUr
     </Card>
   )
 }
-

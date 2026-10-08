@@ -96,10 +96,12 @@ export default function CertificationSlider() {
           {certifications.map((cert, index) => (
             <Card key={index} className="min-w-full border border-gray-200 bg-white">
               <CardContent className="p-8 flex flex-col items-center text-center">
-                <Badge className="mb-4 bg-[#420177]/20 text-[#420177] hover:bg-[#420177]/30">{cert.category}</Badge>
-                <h3 className="text-2xl font-bold text-[#0e2431] mb-2">{cert.name}</h3>
-                <p className="text-[#011aff] mb-1">Issued by {cert.issuer}</p>
-                <p className="text-gray-600 text-sm">Obtained in {cert.date}</p>
+                <Badge className="mb-4 bg-[#420177]/20 text-[#420177] hover:bg-[#420177]/30 dark:bg-cyan-400/10 dark:text-cyan-300 dark:hover:bg-cyan-400/15">
+                  {cert.category}
+                </Badge>
+                <h3 className="text-2xl font-bold text-[#0e2431] mb-2 dark:text-slate-100">{cert.name}</h3>
+                <p className="text-[#011aff] mb-1 dark:text-sky-300">Issued by {cert.issuer}</p>
+                <p className="text-gray-600 text-sm dark:text-slate-300">Obtained in {cert.date}</p>
               </CardContent>
             </Card>
           ))}
@@ -138,4 +140,3 @@ export default function CertificationSlider() {
     </div>
   )
 }
-

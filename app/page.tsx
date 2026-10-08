@@ -21,7 +21,7 @@ export default function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="flex-1 text-center md:text-left">
-              <Badge className="mb-4 bg-blue-100 text-[#420177] hover:bg-blue-200"><em>ASPIRING DEVOPS ENGINEER</em></Badge>
+              <Badge className="mb-4 bg-blue-100 text-blue-800 hover:bg-blue-100"><em>ASPIRING DEVOPS ENGINEER</em></Badge>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#0e2431] mb-4">
                 Hi There, I'm <span className="text-[#fc8c05]">Bhusan Shrestha</span>
               </h1>
@@ -127,7 +127,7 @@ export default function Home() {
                     <span className="font-semibold">Degree:</span> BIT (Bachelor in Information Technology)
                   </p>
                   <p className="text-gray-800">
-                    <span className="font-semibold">Phone:</span> +977 9814247219
+                    <span className="font-semibold">Phone:</span> +977 9761750193
                   </p>
                 </div>
                 <div>
@@ -545,7 +545,7 @@ export default function Home() {
                 >
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                 </svg>
-                +977 9814247219
+                +977 9761750193
               </p>
               <p className="text-slate-600 dark:text-gray-400 flex items-center mb-2">
                 <Mail className="h-5 w-5 mr-2" />
@@ -572,7 +572,7 @@ export default function Home() {
                   <Button
                     variant="outline"
                     size="icon"
-                    className="rounded-full bg-[#09011b] border-none hover:bg-[#007bb6] text-[#00d9ff] hover:text-white"
+                    className="rounded-full bg-[#09011b] border-none hover:bg-[#007bb6] text-[#00d9ff]"
                   >
                     <Linkedin className="h-5 w-5" />
                   </Button>
@@ -590,7 +590,7 @@ export default function Home() {
                   <Button
                     variant="outline"
                     size="icon"
-                    className="rounded-full bg-[#09011b] border-none hover:bg-[#d44638] text-[#00d9ff] hover:text-white"
+                    className="rounded-full bg-[#09011b] border-none hover:bg-[#d44638] text-[#ffae00] hover:text-white"
                   >
                     <Mail className="h-5 w-5" />
                   </Button>
@@ -599,7 +599,7 @@ export default function Home() {
                   <Button
                     variant="outline"
                     size="icon"
-                    className="rounded-full bg-[#09011b] border-none hover:bg-[#ee00da] text-[#00d9ff] hover:text-white"
+                    className="rounded-full bg-[#09011b] border-none hover:bg-[#ee00da] text-[#ff4fd8] dark:text-[#ff75df] hover:text-white"
                   >
                     <Instagram className="h-5 w-5" />
                   </Button>
