@@ -5,15 +5,69 @@ import type React from "react"
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Menu, X } from "lucide-react"
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuLabel,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
+import { useTheme } from "next-themes"
+import { Laptop, Menu, Moon, Sun, X } from "lucide-react"
 import { cn } from "@/lib/utils"
-import { useMobile } from "@/hooks/use-mobile"
+
+const themeOptions = [
+  { value: "light", label: "Light", icon: Sun },
+  { value: "dark", label: "Dark", icon: Moon },
+  { value: "system", label: "Auto", icon: Laptop },
+] as const
+
+function ThemeSelector() {
+  const { setTheme, theme } = useTheme()
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  const selectedTheme = themeOptions.find((option) => option.value === theme)
+  const TriggerIcon = selectedTheme?.icon ?? Laptop
+
+  return (
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <Button
+          variant="ghost"
+          size="icon"
+          className="text-slate-900 dark:text-white"
+          aria-label="Change color theme"
+        >
+          <TriggerIcon className="h-5 w-5" />
+        </Button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent align="end">
+        <DropdownMenuLabel>Theme</DropdownMenuLabel>
+        <DropdownMenuRadioGroup
+          value={mounted ? theme : undefined}
+          onValueChange={setTheme}
+        >
+          {themeOptions.map(({ value, label, icon: Icon }) => (
+            <DropdownMenuRadioItem key={value} value={value}>
+              <Icon className="h-4 w-4" />
+              {label}
+            </DropdownMenuRadioItem>
+          ))}
+        </DropdownMenuRadioGroup>
+      </DropdownMenuContent>
+    </DropdownMenu>
+  )
+}
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const [activeSection, setActiveSection] = useState("")
-  const isMobile = useMobile()
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
@@ -121,10 +175,10 @@ export default function Navbar() {
                 onClick={(e) => handleAnchorClick(e, link.href)}
                 className={cn(
                   "text-sm font-medium transition-colors hover:text-[#011aff] hover:border-b-2 hover:border-[#011aff] hover:pb-1",
-                  "text-[#0e2431]", // Always use dark color for text readability 
-                  activeSection === link.href 
-                    ? "text-[#011aff] border-b-2 border-[#011aff] pb-1" // Active state styles
-                    : ""
+                  "text-slate-900 dark:text-white",
+                  activeSection === link.href
+                    ? "text-[#011aff] border-b-2 border-[#011aff] pb-1"
+                    : "",
                 )}
               >
                 {link.name}
@@ -132,9 +186,18 @@ export default function Navbar() {
             ))}
           </div>
 
-          <Button variant="ghost" size="icon" className="md:hidden" onClick={toggleMenu} aria-label="Toggle menu">
-            {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </Button>
+          <div className="flex items-center gap-1">
+            <ThemeSelector />
+            <Button
+              variant="ghost"
+              size="icon"
+              className="md:hidden"
+              onClick={toggleMenu}
+              aria-label="Toggle menu"
+            >
+              {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </Button>
+          </div>
         </div>
       </div>
 
@@ -165,4 +228,3 @@ export default function Navbar() {
     </header>
   )
 }
-

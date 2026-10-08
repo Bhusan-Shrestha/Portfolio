@@ -56,11 +56,11 @@
   }
 
   .dark {
-    --background: 0 0% 3.9%;
+    --background: 0 0% 0%;
     --foreground: 0 0% 98%;
-    --card: 0 0% 3.9%;
+    --card: 0 0% 11%;
     --card-foreground: 0 0% 98%;
-    --popover: 0 0% 3.9%;
+    --popover: 0 0% 11%;
     --popover-foreground: 0 0% 98%;
     --primary: 0 0% 98%;
     --primary-foreground: 0 0% 9%;
@@ -100,6 +100,28 @@
 
   body {
     @apply bg-background text-foreground;
+  }
+
+  .dark .bg-\[\#f7f7f7\] {
+    background-color: #050517;
+  }
+
+  .dark .bg-white {
+    background-color: #1c1c1c;
+  }
+
+  .dark .text-black,
+  .dark .text-\[\#0e2431\],
+  .dark .text-gray-800,
+  .dark .text-gray-900,
+  .dark .text-gray-700,
+  .dark .text-gray-600,
+  .dark .text-gray-500 {
+    color: hsl(var(--foreground));
+  }
+
+  .dark footer {
+    background-color: #050517;
   }
 
   ::selection {

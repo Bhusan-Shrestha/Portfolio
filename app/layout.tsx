@@ -72,7 +72,7 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="light">
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Navbar />
           {children}
         </ThemeProvider>

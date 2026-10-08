@@ -50,7 +50,7 @@ export default function Home() {
                   <Button
                     variant="outline"
                     size="icon"
-                    className="rounded-full bg-[#09011b] border-none hover:bg-[#0e0e0e] text-[#00d9ff]"
+                    className="rounded-full bg-[#09011b] border-none hover:bg-[#6e5494] text-[#f0f0f0] hover:text-white"
                   >
                     <Github className="h-5 w-5" />
                   </Button>
@@ -59,7 +59,7 @@ export default function Home() {
                   <Button
                     variant="outline"
                     size="icon"
-                    className="rounded-full bg-[#09011b] border-none hover:bg-[#ee00da] text-[#00d9ff]"
+                    className="rounded-full bg-[#09011b] border-none hover:bg-[#ee00da] text-[#ff4fd8] dark:text-[#ff75df]"
                   >
                     <Instagram className="h-5 w-5" />
                   </Button>
@@ -581,7 +581,7 @@ export default function Home() {
                   <Button
                     variant="outline"
                     size="icon"
-                    className="rounded-full bg-[#09011b] border-none hover:bg-[#0e0e0e] text-[#00d9ff] hover:text-white"
+                    className="rounded-full bg-[#09011b] border-none hover:bg-[#6e5494] text-[#f0f0f0] hover:text-white"
                   >
                     <Github className="h-5 w-5" />
                   </Button>
