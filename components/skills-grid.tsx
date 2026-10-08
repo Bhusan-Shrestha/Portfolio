@@ -114,6 +114,44 @@ export default function SkillsGrid() {
     },
     {
       logo: (
+        <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[#0f766e] to-[#0ea5e9] text-white shadow-md shadow-cyan-200">
+          <GitBranch className="h-5 w-5" />
+        </span>
+      ),
+      title: "DevOps",
+      skills: [
+        {
+          name: "Linux",
+          icon: "https://cdn-icons-png.flaticon.com/512/6124/6124995.png",
+        },
+        {
+          name: "AWS",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+        },
+        {
+          name: "Kubernetes",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-plain.svg",
+        },
+        {
+          name: "CI/CD",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg",
+        },
+        {
+          name: "Docker",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+        },
+        {
+          name: "Ansible",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ansible/ansible-original.svg",
+        },
+        {
+          name: "Terraform",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg",
+        },
+      ],
+    },
+     {
+      logo: (
         <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[#f97316] to-[#fb923c] text-white shadow-md shadow-orange-200">
           <Wrench className="h-5 w-5" />
         </span>
@@ -132,35 +170,25 @@ export default function SkillsGrid() {
           name: "Excel",
           icon: "https://img.icons8.com/?size=100&id=117561&format=png&color=000000",
         },
-      ],
-    },
-    {
-      logo: (
-        <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[#0f766e] to-[#0ea5e9] text-white shadow-md shadow-cyan-200">
-          <GitBranch className="h-5 w-5" />
-        </span>
-      ),
-      title: "DevOps",
-      skills: [
         {
-          name: "Linux",
-          icon: "https://cdn-icons-png.flaticon.com/512/6124/6124995.png",
+          name: "Prometheus",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prometheus/prometheus-original.svg",
         },
         {
-          name: "CI/CD",
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg",
+          name: "Tempo",
+          icon: "https://raw.githubusercontent.com/grafana/tempo/main/cmd/tempo/app/static/tempo-icon.png",
         },
         {
-          name: "Docker",
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+          name: "OpenTelemetry",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opentelemetry/opentelemetry-original.svg",
         },
         {
-          name: "Ansible",
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ansible/ansible-original.svg",
+          name: "Loki",
+          icon: "https://raw.githubusercontent.com/grafana/loki/main/docs/sources/logo.png",
         },
         {
-          name: "Terraform",
-          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terraform/terraform-original.svg",
+          name: "Grafana",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grafana/grafana-original.svg",
         },
       ],
     },
@@ -187,6 +215,10 @@ export default function SkillsGrid() {
         {
           name: "Python",
           icon: "https://cdn-icons-png.flaticon.com/512/5968/5968350.png",
+        },
+        {
+          name: "Bash",
+          icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg",
         },
       ],
     },
@@ -241,4 +273,3 @@ export default function SkillsGrid() {
     </div>
   )
 }
-

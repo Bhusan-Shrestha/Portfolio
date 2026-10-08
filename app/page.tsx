@@ -290,6 +290,13 @@ export default function Home() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard
+              title="Todo Application - DevOps Microservices"
+              description="A production-ready todo application deployed as Docker Swarm microservices with Nginx reverse proxy, Bash automation scripts, and observability through OpenTelemetry, Prometheus, Grafana, Tempo, and Loki."
+              image="/todo-application.jpg"
+              codeUrl="https://github.com/Bhusan-Shrestha/todo-app"
+            />
+
+            <ProjectCard
               title="Hamro Restaurant"
               description="A responsive website for a local restaurant built with PHP, HTML, JavaScript and CSS."
               image="/Hamro-Restaurant.png"
@@ -626,4 +633,3 @@ export default function Home() {
     </div>
   )
 }
-
