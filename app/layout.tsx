@@ -12,28 +12,29 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   metadataBase: new URL("https://bhusanshrestha.com.np/"),
   title: {
-    default: "Bhusan Shrestha | Full-Stack Developer & AI Enthusiast",
+    default: "Bhusan Shrestha | DevOps Engineer & Cyber Security Enthusiast",
     template: "%s | Bhusan Shrestha",
   },
   description:
-    "Portfolio website of Bhusan Shrestha featuring projects and expertise in Web development, AI, Machine Learning, DevOps, and Explore the portfolio of Bhusan Shrestha, showcasing Web development, AI, Machine Learning, DevOps, and data-driven solutions.",
+    "Portfolio website of Bhusan Shrestha featuring projects and expertise in Web development, AI, Machine Learning, DevOps, and Cyber Security. Explore the portfolio of Bhusan Shrestha, showcasing Web development, AI, Machine Learning, DevOps, and data-driven solutions.",
   keywords: [
     "Bhusan Shrestha",
-    "Full-Stack Developer",
+    "DevOps Engineer",
+    "Cyber Security",
     "AI Enthusiast",
     "Web development",
     "data analysis",
     "Machine Learning",
-    "DevOps",
+    "Full-Stack Developer",
     "Nepal developer",
   ],
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Bhusan Shrestha | Full-Stack Developer & AI Enthusiast",
+    title: "Bhusan Shrestha | DevOps Engineer & Cyber Security Enthusiast",
     description:
-      "Explore projects and skills in AI, Data analysis, Web development, and DevOps by Bhusan Shrestha.",
+      "Explore projects and skills in DevOps, Cyber Security, Web development, and AI by Bhusan Shrestha.",
     url: "/",
     siteName: "Bhusan Shrestha Portfolio",
     type: "website",
@@ -48,9 +49,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bhusan Shrestha | Full-Stack Developer & AI Enthusiast",
+    title: "Bhusan Shrestha | DevOps Engineer & Cyber Security Enthusiast",
     description:
-      "Explore projects and skills in AI, Data analysis, Web development, and DevOps by Bhusan Shrestha.",
+      "Explore projects and skills in DevOps, Cyber Security, Web development, and AI by Bhusan Shrestha.",
     images: ["/hero-bhusan.jpg"],
   },
   robots: {
