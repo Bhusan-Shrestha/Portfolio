@@ -141,7 +141,7 @@ export default function Home() {
               </div>
               <Button
                 onClick={() => {
-                  window.open("/Bhusan_Shrestha_Resume.pdf", "_blank")
+                  window.open("/Bhusan-Shrestha-Resume.pdf", "_blank")
                 }}
                 className="bg-blue-600 hover:bg-blue-700 text-white"
               >
